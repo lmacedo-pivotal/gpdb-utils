@@ -1,5 +1,3 @@
-DROP VIEW public.v_gp_table_storage CASCADE;
-
 CREATE OR REPLACE VIEW public.v_gp_table_storage AS
  SELECT
  current_timestamp AS tms,
